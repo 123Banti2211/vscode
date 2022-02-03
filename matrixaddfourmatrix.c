@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
-int a[100][100], s[100][100];
+int a[100][100], s[100][100],b[100][100],c[100][100],d[100][100];
 void main()
 {
     int row1,col1;
@@ -10,9 +10,9 @@ void main()
     scanf("%d",& col1);
     int a[row1][col1];
     matrix(a,row1,col1);
-    matrix(a,row1,col1);
-    matrix(a,row1,col1);
-    matrix(a,row1,col1);
+    matrix(b,row1,col1);
+    matrix(c,row1,col1);
+    matrix(d,row1,col1);
     add(a,s,row1,col1);
 }
 void matrix (int a[10][10], int row,int col)
