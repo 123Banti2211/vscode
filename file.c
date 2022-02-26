@@ -21,12 +21,14 @@
 // }
 
 
-#include<stdio.h>
-void main()
-{
-    FILE * fp;
-    if(fp==NULL)
-    {
-        printf("File not found");
-    }
-}
+// #include<stdio.h>
+// void main()
+// {
+//     FILE * fp;
+//     if(fp==NULL)
+//     {
+//         printf("File not found");
+//     }
+// }
+
+
